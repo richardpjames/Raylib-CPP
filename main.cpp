@@ -1,12 +1,7 @@
-#include <raylib.h>
+#include "main.hpp";
 
 int main()
 {
-	// Define the screen width and height
-	const int SCREEN_WIDTH = 1920;
-	const int SCREEN_HEIGHT = 1080;
-	const int TARGET_FPS = 60;
-
 	// Initialise the window and set the target FPS
 	InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Hello World");
 	SetTargetFPS(TARGET_FPS);
